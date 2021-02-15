@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1200px;
+    background-color: rgb(187,237,236);
+   }
+
+   h1 {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    top: 5px;
+	left: 400px;
+    text-shadow: 2px 2px 4px #000000;
+   }
+
+   p {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    bottom: 5px;
+	left: 400px;
+   }
+
+   footer {
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+   right: 0;
+   bottom: 0;
+   }
+
+   button {
+    background-color: rgb(232, 132, 245);
+    border: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+	left: 400px;
+  }
+
+   
