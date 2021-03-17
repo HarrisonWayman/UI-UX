@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script>
+        var bleep = new Audio ();
+        bleep.src = "sound1.mp3"
+
+    </script>
+    <title>Canyon Hikers</title>
+    
+  </head>
+  <body>
+    
+    <div class="container">
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                    <img src="Images/logo.svg" alt="Logo" style="width: 40px;">
+                  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="bleep.play()">Home
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="bleep.play()">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="bleep.play()">Trips</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="bleep.play()">Gear</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          </nav>
+
+          <div class="jumbotron jumbotron bg-info" style="background-image: url(Images/GC1.jpg);>
+            <div class="container">
+              <h1 class="display-3 text-dark  animate__animated animate__slideInLeft">Canyon Hikers</h1>
+              <p class="text-light">Mauris vel justo ut erat maximus<br> dignissim nec tempor erat.</p>
+            </div>
+            <center><h1 class="display-4">Lorem Ipsum</h1></center>
+            <center><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></center>
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/GC1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/GC2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/GC3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+        
+
+          <div class="container my-5">
+              <ul class="nav nav-inline">
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">Harry@outlook.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small class="nav-link">&copy;2021 Lorem Ipsum&reg;</small>
+                </li>
+              </ul>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  </body>
+</html>
